@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* Section container styling */
+        .section-container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        /* Section styling */
+        .section {
+            padding: 30px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .section p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Contact section styling */
+        .contact-section {
+            grid-column: span 2;
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to [Your Company]
+    </header>
+
+    <div class="section-container">
+        <div class="section">
+            <h2>People</h2>
+            <p>We bring together experts from diverse fields to shape the future.</p>
+        </div>
+        <div class="section">
+            <h2>Idea</h2>
+            <p>Our vision is to integrate practical expertise into policy innovation.</p>
+        </div>
+        <div class="section">
+            <h2>Machines</h2>
+            <p>Leveraging technology to facilitate impactful discussions and ideas.</p>
+        </div>
+        <div class="section contact-section">
+            <h2>Contact Us</h2>
+            <p>Get in touch for partnerships, collaborations, and opportunities.</p>
+            <p>Email: info@yourcompany.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 [Your Company]. All rights reserved.
+    </footer>
+</body>
+</html>
